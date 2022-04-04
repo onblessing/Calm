@@ -18,3 +18,282 @@
     src: url("../fonts/Poppins-Regular.ttf") format("truetype");
     font-weight: 400;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.header_container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+/* header */
+.header{
+    padding: 20px 0;
+}
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.header_menu{
+    display: flex;
+    align-items: center;
+}
+.header_menu li{
+    margin-right: 20px;
+}
+.header_menu li:last-child{
+    margin-right: 0px;
+}
+.menu_link{
+    font-family: "Georgia";
+    font-size: 14px;
+    color: #353732;
+}
+/* intro */
+.intro{
+    padding: 100px 0 110px 0;
+}
+.intro_wrapper{
+    display: block;
+}
+.intro_wrapper img{
+    width: 94px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+.intro_title{
+    font-family: "Palatino Linotype";
+    font-size: 36px;
+    font-weight: 400;
+    color: #353732;
+}
+/* section1 */
+.section1{
+    padding: 100px 0 100.25px 0;
+    background-color: #FAFAFA;
+}
+.section1_blocks{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.section1_bigblock{
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+}
+.section1_bigblock_texts{
+    padding: 20px 23px 29.58px 20px;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bigblock_title{
+    font-family: "Poppins";
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #353732;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.bigblock_subtitle{
+    font-family: "Palatino Linotype";
+    font-size: 25px;
+    font-weight: 400;
+    color: #45525B;
+    margin-bottom: 10px;
+}
+.bigblock_text{
+    font-family: "Georgia";
+    font-size: 14px;
+    color: #45525B;
+    width: 462px;
+    line-height: 22px;
+    margin-bottom: 69px;
+}
+.bigblock_date{
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+}
+.section1_smallblock{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.section1_smallblock:last-child{
+    margin-bottom: 0px;
+}
+.section1_smallblock_texts{
+    padding: 20px 72px 29.73px 20px;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.smallblock_title{
+    font-family: "Poppins";
+    font-size: 12px;
+    color: #353732;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+.smallblock_text{
+    font-family: "Palatino Linotype";
+    font-size: 16px;
+    color: #45525B;
+    margin-bottom: 9px;
+}
+.smallblock_date{
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+}
+.section1_underblocks{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.section1_underblock{
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+}
+.section1_underblock:last-child{
+    margin-right: 0px;
+}
+.section1_underblock_texts{
+    padding: 20px 50px 29.73px 20px;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.underblock_title{
+    font-family: "Poppins";
+    font-size: 12px;
+    color: #353732;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 13px;
+}
+.underblock_text{
+    font-family: "Palatino Linotype";
+    font-size: 17px;
+    color: #45525B;
+    margin-bottom: 10px;
+}
+.underblock_date{
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+}
+.section1_lastblocks{
+    display: flex;
+    align-items: center;
+}
+.section1_lastblock{
+    display: flex;
+    flex-direction: column;
+    margin-right: 17px;
+}
+.section1_lastblock:last-child{
+    margin-right: 0px;
+}
+.section1_lastblock_texts{
+    padding: 20px 27px 29.75px 20px;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.lastblock_title{
+    font-family: "Poppins";
+    font-size: 12px;
+    color: #353732;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+}
+.lastblock_text_first{
+    font-family: "Palatino Linotype";
+    font-size: 16px;
+    color: #45525B;
+    margin-bottom: 30px;
+}
+.lastblock_text{
+    font-family: "Palatino Linotype";
+    font-size: 16px;
+    color: #45525B;
+    margin-bottom: 7px;
+}
+.lastblock_date{
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+}
+/* section2 */
+.section2{
+    padding: 99.75px 0 100.25px 0;
+}
+.section2_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.section2_texts{
+    padding-top: 20px;
+    margin-right: 16px;
+}
+.section2_title{
+    font-family: "Palatino Linotype";
+    font-weight: 400;
+    font-size: 28px;
+    color: #353732;
+    margin-bottom: 11px;
+}
+.section2_subtitle{
+    width: 373px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Georgia";
+    color: #353732;
+    line-height: 22px;
+}
+.section2_input{
+    margin-bottom: 10px;
+}
+.inputname{
+    font-size: 12px;
+    font-family: "Georgia";
+    color: #353732;
+}
+.name{
+    width: 376px;
+    height: 38px;
+    background: rgba(82, 80, 59, 0.02);
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+}
+.input_btn{
+    width: 82px;
+    height: 38px;
+    background-color: #353732;
+    border-radius: 6px;
+    border: none;
+}
+/* section3 */
+.section3{
+    padding: 99.75px 0 100.25px 0;
+    background-color: #FAFAFA;
+}
